@@ -6,3 +6,17 @@
 
 import streamlit as st
 import pandas as pd
+
+
+st.set_page_config(
+    page_title="SAU AI Education",
+    page_icon=":sparkles:",
+    layout="wide",
+)
+
+
+# Sidebar
+page = st.sidebar.radio("", ["General Applications", "Code Hub"])
+st.sidebar.markdown("---")
+
+
