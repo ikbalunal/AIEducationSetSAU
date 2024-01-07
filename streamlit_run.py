@@ -9,4 +9,4 @@ import subprocess
 
 config = json.load(open('Config/InterfaceParameters.json', 'r'))
 
-subprocess.run(["streamlit", "run", "main.py", "--server.enableCORS=false", f"--server.port={config['streamlit_service']['port']}"])
+subprocess.run(["streamlit", "run", "01_🏠Anasayfa.py", "--server.enableCORS=false", f"--server.port={config['streamlit_service']['port']}"])
